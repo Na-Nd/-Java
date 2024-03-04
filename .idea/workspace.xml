@@ -1,0 +1,903 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/javafx.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_j_8_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kursovayaGromov.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/kursovayaGromov/sample/Animations.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/kursovayaGromov/sample/Configs.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/kursovayaGromov/sample/Constants.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/kursovayaGromov/sample/DataBaseHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/kursovayaGromov/sample/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/kursovayaGromov/sample/addEditChangeBooksAdmin.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/kursovayaGromov/sample/basketUser.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/kursovayaGromov/sample/catalogUser.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/kursovayaGromov/sample/controllers/Controller.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/kursovayaGromov/sample/controllers/addEditChangeBooksAdminController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/kursovayaGromov/sample/controllers/basketUserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/kursovayaGromov/sample/controllers/catalogUserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/kursovayaGromov/sample/controllers/homeAdminController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/kursovayaGromov/sample/controllers/homeSalorController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/kursovayaGromov/sample/controllers/homeUserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/kursovayaGromov/sample/controllers/loginAdminController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/kursovayaGromov/sample/controllers/loginSalorController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/kursovayaGromov/sample/controllers/loginUserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/kursovayaGromov/sample/controllers/registerAdminController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/kursovayaGromov/sample/controllers/registerSalorController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/kursovayaGromov/sample/controllers/registerUserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/kursovayaGromov/sample/controllers/salorGraphsController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/kursovayaGromov/sample/homeAdmin.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/kursovayaGromov/sample/homeSalor.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/kursovayaGromov/sample/homeUser.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/kursovayaGromov/sample/images/admin_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/kursovayaGromov/sample/images/book_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/kursovayaGromov/sample/images/books/acid_house.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/kursovayaGromov/sample/images/books/aist.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/kursovayaGromov/sample/images/books/himiya.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/kursovayaGromov/sample/images/books/hrebti.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/kursovayaGromov/sample/images/books/kurici.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/kursovayaGromov/sample/images/books/loadBook.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/kursovayaGromov/sample/images/books/merzlota.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/kursovayaGromov/sample/images/books/myatnaya_skazka.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/kursovayaGromov/sample/images/books/necronamekon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/kursovayaGromov/sample/images/books/odinburg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/kursovayaGromov/sample/images/books/polnoe_rukovodstvo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/kursovayaGromov/sample/images/books/spring.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/kursovayaGromov/sample/images/books/vor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/kursovayaGromov/sample/images/books/zov_ktulhu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/kursovayaGromov/sample/images/salor_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/kursovayaGromov/sample/images/user_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/kursovayaGromov/sample/loginAdmin.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/kursovayaGromov/sample/loginSalor.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/kursovayaGromov/sample/loginUser.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/kursovayaGromov/sample/persons/Admin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/kursovayaGromov/sample/persons/Book.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/kursovayaGromov/sample/persons/Salor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/kursovayaGromov/sample/persons/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/kursovayaGromov/sample/registerAdmin.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/kursovayaGromov/sample/registerSalor.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/kursovayaGromov/sample/registerUser.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/kursovayaGromov/sample/salorGraphs.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/kursovayaGromov/sample/sample.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/Animations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/Configs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/DataBaseHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/addEditChangeBooksAdmin.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/basketUser.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/catalogUser.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/controllers/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/controllers/addEditChangeBooksAdminController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/controllers/basketUserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/controllers/catalogUserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/controllers/homeAdminController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/controllers/homeSalorController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/controllers/homeUserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/controllers/loginAdminController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/controllers/loginSalorController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/controllers/loginUserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/controllers/registerAdminController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/controllers/registerSalorController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/controllers/registerUserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/controllers/salorGraphsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/homeAdmin.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/homeSalor.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/homeUser.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/images/admin_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/images/book_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/images/books/acid_house.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/images/books/aist.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/images/books/himiya.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/images/books/hrebti.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/images/books/kurici.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/images/books/loadBook.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/images/books/merzlota.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/images/books/myatnaya_skazka.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/images/books/necronamekon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/images/books/odinburg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/images/books/polnoe_rukovodstvo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/images/books/spring.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/images/books/vor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/images/books/zov_ktulhu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/images/salor_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/images/user_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/loginAdmin.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/loginSalor.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/loginUser.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/persons/Admin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/persons/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/persons/Salor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/persons/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/registerAdmin.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/registerSalor.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/registerUser.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/salorGraphs.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/sample.fxml" afterDir="false" />
+    </list>
+    <ignored path="JavaFxApplication.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DebuggerManager">
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true" converted="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
+    <ui_properties converted="true" />
+    <breakpoint_rules converted="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="JavaFxApplication" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="XSLT Stylesheet" />
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/sample/sample.fxml" />
+        <option value="$PROJECT_DIR$/src/sample/graphic/sample.fxml" />
+        <option value="$PROJECT_DIR$/src/sample/Main.java" />
+        <option value="$PROJECT_DIR$/src/sample/registerAdmin.fxml" />
+        <option value="$PROJECT_DIR$/src/sample/registerUser.fxml" />
+        <option value="$PROJECT_DIR$/src/sample/registerSalor.fxml" />
+        <option value="$PROJECT_DIR$/src/sample/persons/Admin.java" />
+        <option value="$PROJECT_DIR$/src/sample/persons/Salor.java" />
+        <option value="$PROJECT_DIR$/src/sample/Configs.java" />
+        <option value="$PROJECT_DIR$/src/sample/controllers/HomeUserController.java" />
+        <option value="$PROJECT_DIR$/src/sample/homeUser.fxml" />
+        <option value="$PROJECT_DIR$/src/sample/persons/loginUser.fxml" />
+        <option value="$PROJECT_DIR$/src/sample/catalogUser.fxml" />
+        <option value="$PROJECT_DIR$/src/sample/controllers/Controller.java" />
+        <option value="$PROJECT_DIR$/src/sample/persons/User.java" />
+        <option value="$PROJECT_DIR$/src/sample/editExistingBooksAdmin.fxml" />
+        <option value="$PROJECT_DIR$/src/sample/loginUser.fxml" />
+        <option value="$PROJECT_DIR$/src/sample/loginAdmin.fxml" />
+        <option value="$PROJECT_DIR$/src/sample/controllers/loginUserController.java" />
+        <option value="$PROJECT_DIR$/src/sample/homeSalor.fxml" />
+        <option value="$PROJECT_DIR$/src/sample/loginSalor.fxml" />
+        <option value="$PROJECT_DIR$/src/sample/controllers/registerSalorController.java" />
+        <option value="$PROJECT_DIR$/src/sample/controllers/loginSalorController.java" />
+        <option value="$PROJECT_DIR$/src/sample/controllers/showExistingBooksAdmin.fxml" />
+        <option value="$PROJECT_DIR$/src/sample/showExistingBooksAdmin.fxml" />
+        <option value="$PROJECT_DIR$/src/sample/controllers/showExistingBooksAdminController.java" />
+        <option value="$PROJECT_DIR$/src/sample/persons/Book.java" />
+        <option value="$PROJECT_DIR$/src/sample/homeAdmin.fxml" />
+        <option value="$PROJECT_DIR$/src/sample/controllers/loginAdminController.java" />
+        <option value="$PROJECT_DIR$/src/sample/addEditChangeBooksAdmin.fxml" />
+        <option value="$PROJECT_DIR$/src/sample/controllers/homeAdminController.java" />
+        <option value="$PROJECT_DIR$/src/sample/basketUser.fxml" />
+        <option value="$PROJECT_DIR$/src/sample/salorGraphs.fxml" />
+        <option value="$PROJECT_DIR$/src/sample/Constants.java" />
+        <option value="$PROJECT_DIR$/src/sample/Animations.java" />
+        <option value="$PROJECT_DIR$/src/sample/DataBaseHandler.java" />
+        <option value="$PROJECT_DIR$/src/sample/controllers/addEditChangeBooksAdminController.java" />
+        <option value="$PROJECT_DIR$/src/sample/controllers/basketUserController.java" />
+        <option value="$PROJECT_DIR$/src/sample/controllers/catalogUserController.java" />
+        <option value="$PROJECT_DIR$/src/sample/controllers/homeSalorController.java" />
+        <option value="$PROJECT_DIR$/src/sample/controllers/homeUserController.java" />
+        <option value="$PROJECT_DIR$/src/sample/controllers/registerAdminController.java" />
+        <option value="$PROJECT_DIR$/src/sample/controllers/registerUserController.java" />
+        <option value="$PROJECT_DIR$/src/sample/controllers/salorGraphsController.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="1615" />
+    <option name="height" value="880" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="kursovayaGromov" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kursovayaGromov" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kursovayaGromov" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kursovayaGromov" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kursovayaGromov" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kursovayaGromov" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sample" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kursovayaGromov" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kursovayaGromov" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sample" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kursovayaGromov" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kursovayaGromov" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sample" type="462c0819:PsiDirectoryNode" />
+              <item name="persons" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="kursovayaGromov" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="kursovayaGromov" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="kursovayaGromov" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="kursovayaGromov" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="kursovayaGromov" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="kursovayaGromov" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="sample" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="OverrideImplement.combined" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1709594952509" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="last_opened_file_path" value="C:/Program Files/Git/cmd/git.exe" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="recentsLimit" value="5" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\nikjk\IdeaProjects\kursovayaGromov\src\sample\images\books" />
+      <recent name="C:\Users\nikjk\IdeaProjects\kursovayaGromov\src\sample\images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\nikjk\IdeaProjects\kursovayaGromov\src\sample\graphic" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="sample.Main" />
+      <module name="kursovayaGromov" />
+      <option name="VM_PARAMETERS" value="--module-path C:\kitsForJava\javafx-sdk-11.0.2\lib --add-modules javafx.controls,javafx.fxml" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sample.controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="" />
+      <created>1359379246138</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1359379246138</updated>
+      <workItem from="1359379250712" duration="1302000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1302000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.23758389" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Favorites" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32885906" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32885906" />
+      <window_info anchor="bottom" id="Application Servers" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Problems" order="9" />
+      <window_info anchor="bottom" id="Changes" order="10" />
+      <window_info anchor="bottom" id="Profiler" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="12" weight="0.32885906" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32885906" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="14" visible="true" weight="0.32885906" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="JetGradle" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Maven Projects" order="9" weight="0.3295302" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/sample/DataBaseHandler.java</url>
+          <line>64</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/sample/graphic/sample.fxml" />
+    <entry file="file://$PROJECT_DIR$/src/sample/sample.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="110" lean-forward="true" selection-end-line="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/registerSalor.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="140" selection-start-line="31" selection-start-column="140" selection-end-line="31" selection-end-column="140" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/registerAdmin.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="17" column="27" lean-forward="true" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/persons/loginUser.fxml" />
+    <entry file="file://$PROJECT_DIR$/src/sample/registerUser.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="33" lean-forward="true" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/editExistingBooksAdmin.xsl" />
+    <entry file="file://$PROJECT_DIR$/src/sample/editExistingBooksAdmin.fxml" />
+    <entry file="file://$PROJECT_DIR$/src/sample/loginUser.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="39" column="16" lean-forward="true" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/homeUser.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="55" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/homeSalor.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/loginAdmin.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="35" column="35" lean-forward="true" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/loginSalor.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/controllers/showExistingBooksAdmin.fxml" />
+    <entry file="file://$PROJECT_DIR$/src/sample/showExistingBooksAdmin.fxml" />
+    <entry file="file://$PROJECT_DIR$/src/sample/controllers/showExistingBooksAdminController.java" />
+    <entry file="file://$PROJECT_DIR$/src/sample/homeAdmin.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="36" column="87" lean-forward="true" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/addEditChangeBooksAdmin.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="97" lean-forward="true" selection-start-line="24" selection-start-column="97" selection-end-line="24" selection-end-column="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/images/books/merzlota.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/images/books/himiya.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/images/books/kurici.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/catalogUser.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="30" column="58" lean-forward="true" selection-end-line="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/basketUser.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="32" column="28" lean-forward="true" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/salorGraphs.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="12" column="62" lean-forward="true" selection-start-line="12" selection-start-column="62" selection-end-line="12" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Animations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Configs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/DataBaseHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/persons/Admin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="25" lean-forward="true" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/persons/Book.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="33" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/persons/Salor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="31" lean-forward="true" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/persons/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="15" column="27" lean-forward="true" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/controllers/addEditChangeBooksAdminController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/controllers/basketUserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-718">
+          <caret line="83" column="60" selection-start-line="83" selection-start-column="60" selection-end-line="83" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/controllers/catalogUserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-24">
+          <caret line="237" column="9" selection-start-line="237" selection-start-column="9" selection-end-line="237" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/controllers/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/controllers/homeAdminController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-721">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/controllers/homeUserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-449">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/controllers/loginAdminController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-194">
+          <caret line="84" column="37" lean-forward="true" selection-start-line="84" selection-start-column="37" selection-end-line="84" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/controllers/loginSalorController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1571">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/controllers/loginUserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="114" column="4" selection-start-line="114" selection-start-column="4" selection-end-line="116" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/controllers/registerAdminController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1857">
+          <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/controllers/registerSalorController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1874">
+          <caret line="2" column="11" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/controllers/registerUserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1520">
+          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/controllers/salorGraphsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="121" lean-forward="true" selection-start-line="121" selection-end-line="121" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/controllers/homeSalorController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-670">
+          <caret line="14" column="47" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>JavaFXApp</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>kursovayaGromov</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>mysql-connector-j-8.3.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

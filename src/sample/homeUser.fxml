@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #686C5E;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controllers.homeUserController">
+    <children>
+        <AnchorPane layoutY="111.0" prefHeight="286.0" prefWidth="600.0" style="-fx-background-color: #FFFFFF;">
+         <children>
+            <Button fx:id="showCatalogButton" layoutX="315.0" layoutY="216.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="202.0" style="-fx-background-color: #49423D;" text="Посмотреть каталог книг" textFill="#efefef">
+               <font>
+                  <Font name="Book Antiqua" size="15.0" />
+               </font>
+            </Button>
+            <Label fx:id="welcomeLabel" layoutX="14.0" layoutY="36.0" text="Добро пожаловать,">
+               <font>
+                  <Font name="Book Antiqua" size="15.0" />
+               </font>
+            </Label>
+            <Button fx:id="showBasketButton" layoutX="82.0" layoutY="216.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="202.0" style="-fx-background-color: #49423D;" text="Посмотреть корзину" textFill="#efefef">
+               <font>
+                  <Font name="Book Antiqua" size="15.0" />
+               </font>
+            </Button>
+         </children>
+        </AnchorPane>
+        <Label layoutX="164.0" layoutY="37.0" prefHeight="40.0" prefWidth="271.0" text="Домашняя страница" textFill="WHITE">
+            <font>
+                <Font name="Book Antiqua" size="27.0" />
+            </font>
+        </Label>
+
+          <ImageView fitHeight="150.0" fitWidth="107.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+              <image>
+                  <Image url="@images/user_icon.png" />
+              </image>
+          </ImageView>
+        <Button fx:id="toMainWindowButton" layoutX="466.0" layoutY="14.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="120.0" style="-fx-background-color: #49423D;" text="Выйти" textFill="#efefef">
+            <font>
+                <Font name="Book Antiqua" size="15.0" />
+            </font>
+        </Button>
+    </children>
+</AnchorPane>

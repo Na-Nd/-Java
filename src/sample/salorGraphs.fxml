@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.BarChart?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #686C5E;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controllers.salorGraphsController">
+    <children>
+        <AnchorPane layoutY="111.0" prefHeight="490.0" prefWidth="800.0" style="-fx-background-color: #FFFFFF;">
+         <children>
+            <BarChart fx:id="topSaleGraph" layoutX="150.0" layoutY="76.0">
+              <xAxis>
+                <CategoryAxis side="BOTTOM" />
+              </xAxis>
+              <yAxis>
+                <NumberAxis side="LEFT" />
+              </yAxis>
+            </BarChart>
+         </children>
+        </AnchorPane>
+        <Label layoutX="289.0" layoutY="29.0" prefHeight="40.0" prefWidth="222.0" text="Графики продаж" textFill="WHITE">
+            <font>
+                <Font name="Book Antiqua" size="27.0" />
+            </font>
+        </Label>
+
+        <ImageView fitHeight="150.0" fitWidth="107.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@images/salor_icon.png" />
+            </image>
+        </ImageView>
+        <Button fx:id="toSalorHomeButton" layoutX="659.0" layoutY="14.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="127.0" style="-fx-background-color: #49423D;" text="На домашнюю" textFill="#efefef">
+            <font>
+                <Font name="Book Antiqua" size="15.0" />
+            </font>
+        </Button>
+        <Label fx:id="welcomeLabel" layoutX="107.0" layoutY="49.0" text="name" textFill="WHITE">
+            <font>
+                <Font name="Book Antiqua" size="15.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>
